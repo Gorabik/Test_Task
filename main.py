@@ -21,8 +21,6 @@ def process_text_file(filepath):
             text = f.read()
     except FileNotFoundError:
         return "Файл не найден."
-    except UnicodeDecodeError:
-        return "Ошибка декодирования файла в кодировке UTF-8."
 
     words = re.findall(r'\b\w+\b', text.lower())
     word_counts = {}
