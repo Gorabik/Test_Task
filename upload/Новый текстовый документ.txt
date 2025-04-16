@@ -1,0 +1,27 @@
+Job
+	--alembic
+	--app
+		--database
+			database
+			settings
+		--models
+			reservation_models
+			table_models
+		--plan
+			reserv_plan
+			table_plan
+		--service
+			reserv_serv
+			table_serv
+		--sits
+			reserv_sits
+			table_sits
+		--tests
+			tests_reservations
+			tests_tables
+		--main.py
+		--__init__
+	.env
+	alembiv.ini
+	DockerFile
+	requirements.txt
